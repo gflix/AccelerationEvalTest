@@ -23,4 +23,10 @@ typedef struct
 void initVertex(Vertex* vertex);
 void initAccelerationEvaluationState(AccelerationEvaluationState* state);
 
+void copyVertex(Vertex* destination, Vertex* source);
+
+void setLatchEnable(AccelerationEvaluationState* state, bool nextLatchEnableState);
+
+void evaluateSample(AccelerationEvaluationState* state, Vertex* sample);
+
 #endif /* ACCELERATIONEVALUATION_H_ */
