@@ -1,6 +1,7 @@
 # list of source files which are compiled for unit testing
 set(
     UNITTEST_SOURCE_FILES
+    AccelerationEvaluationTest.cpp
 
     gtest_main.cpp
 )
